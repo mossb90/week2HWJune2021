@@ -53,7 +53,8 @@ img {
 
 }
 
+/* darkens button color when cursor hovers */
 .btn:hover {
-    background-color: rgb(110, 109, 109);
+    background-color: gray;
 }
 
