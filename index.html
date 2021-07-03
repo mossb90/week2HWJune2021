@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div id="whiteFlexBox">       
+            <!-- Animated Background Carousel -->
+            <div id="flexItems"> 
+                <h2>Animated Background Carousel</h2>
+                <div id="imageSliderAuto">                  
+                    <img src="./images/b01.jpg" alt="background 1">
+                    <img src="./images/b02.jpg" alt="background 2">
+                    <img src="./images/b03.jpg" alt="background 3">
+                    <img src="./images/b04.jpg" alt="background 4">
+                    <img src="./images/b05.jpg" alt="background 5">
+                    <img src="./images/b06.jpg" alt="background 6">
+
+                </div>
+            </div>
+        
+            <!-- Background Carousel with Manual Control -->
+            <div id="flexItems"> 
+                <h2>Background Image Carousel</h2>
+                <div id="imageSliderManual">
+                    <img src="./images/b01.jpg" alt="background 1">
+                    <img src="./images/b02.jpg" alt="background 2">
+                    <img src="./images/b03.jpg" alt="background 3">
+                    <img src="./images/b04.jpg" alt="background 4">
+                    <img src="./images/b05.jpg" alt="background 5">
+                    <img src="./images/b06.jpg" alt="background 6">
+
+                </div>
+            </div>
+
+            <div id="flexItems">
+                    <button class = "btn" onclick="previousSlide()">Previous</button>
+                    <button class = "btn" onclick="nextSlide()">Next</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JS functions to manage button click response -->
+    <script src = "./index.js"></script>
+</body>
+</html>

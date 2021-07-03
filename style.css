@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background-color: grey;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#whiteFlexBox {
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+    flex-direction: column;
+    width: 500px;
+    /* height: 1000px */
+}
+
+#flexItems {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+#imageSliderAuto{
+    display: flex;
+    transform: translateX(000px); 
+    animation: anime 20s linear 1s infinite alternate;
+}
+
+@keyframes anime {
+0% { transform: translateX(000px); }
+2% { transform: translateX(000px); }
+45% { transform: translateX(-1250x); }
+98% { transform: translateX(-2500px); }
+100% { transform: translateX(-2500px); }
+}
+
+#imageSliderManual{
+    display: flex;
+}
+
+.btn {
+    font-size: 18px;
+    width: 25%;
+
+}
+
+.btn:hover {
+    background-color: rgb(110, 109, 109);
+}
+
